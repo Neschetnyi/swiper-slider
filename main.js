@@ -30,6 +30,7 @@ var showButton = document.querySelector(".show-all");
 var swiperTemplate = document.querySelector("#swiper-template").content;
 var swiper__main = document.querySelector('.swiper__main');
 var swiperContainer = document.querySelector('.swiper');
+var shadow = document.querySelector('.swiper-shadow');
 
 //content fill
 var createElement = function(brand,url) {
@@ -106,9 +107,11 @@ if (windowWidth < 768) {
   swiper__main.classList.add('swiper__main_mob');
   showButton.classList.add('show-all_display-none');
   swiperContainer.classList.add('swiper__container_mob');
+  shadow.classList.remove('swiper-shadow_display-none');
 }
 if (windowWidth >= 768) {
   swiperCard();
+  shadow.classList.add('swiper-shadow_display-none');
   showButton.children[0].src = showButton.children[0].src;
   showButton.children[1].textContent = showButton.children[1].textContent;
   swiper__main.classList.add('swiper__main_laptop');
@@ -119,6 +122,7 @@ window.addEventListener('resize', function() {
  windowWidth = window.innerWidth;
  if (windowWidth < 768) {
   swiperCard();
+  shadow.classList.remove('swiper-shadow_display-none');
   swiperContainer.classList.add('swiper__container_mob');
   swiper__main.classList.add('swiper__main_mob');
   showButton.classList.add('show-all_display-none');
@@ -128,6 +132,7 @@ window.addEventListener('resize', function() {
 
  if (windowWidth >= 768) {
   swiperCard();
+  shadow.classList.add('swiper-shadow_display-none');
   swiperContainer.classList.remove('swiper__container_mob');
   showButton.children[0].src = showButton.children[0].src;
   showButton.children[1].textContent = showButton.children[1].textContent;

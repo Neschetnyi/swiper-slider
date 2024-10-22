@@ -77,10 +77,6 @@
   opacity: 50%;
 }
 
-.pagination_style {
- 
-}
-
 .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -107,6 +103,10 @@
   height: 72px;
   width: 10px;
   z-index: 100;
+}
+
+.swiper-shadow_display-none {
+  display: none;
 }
 
 .show-all {

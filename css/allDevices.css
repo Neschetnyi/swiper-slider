@@ -1,0 +1,138 @@
+html {
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.upper-menu {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.upper-menu_bacground-color--white {
+  background-color: #FFFFFF;
+}
+
+.upper-menu_border {
+  border: #D9FFF5 1px solid;
+}
+
+.upper-menu__button {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.upper-menu__button_positioning {
+  border: 0;
+}
+
+.content {
+  background-color: #F8F8F8;
+  font-family: 'TTLakes';
+}
+
+.title__container {
+  display: flex;
+}
+
+.title__h1 {
+  margin-left: 0.5em;
+}
+
+.title__h1_font {
+  white-space: nowrap;
+}
+
+.side-menu_positioning {
+  margin-left: 1em;
+}
+
+.side-menu__button {
+  background-color: #F8F8F8;
+  cursor: pointer;
+}
+
+.side-menu__button_positioning {
+  margin-left: 0.3em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 3px transparent solid;
+  outline: none;
+}
+
+.side-menu__button_font {
+  white-space: nowrap;
+  font-family: 'TTLakes';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2em;
+  color: #7E7E82;
+}
+
+.button {
+  display: block;
+}
+
+.side-menu__button:hover,.side-menu__button:focus, .side-menu__button:active {
+  border: 3px #D9FFF5 solid;
+  background-color: white;
+}
+
+.expand-button {
+  background-color: #F8F8F8;
+  cursor: pointer;
+}
+
+.expand-button_font {
+  font-family: 'TTLakes';
+  font-weight: 500;
+  font-size: 1.0rem;
+  color: #1B1C21;
+}
+
+.expand-button_positioning {
+  display: flex;
+  align-items: center;
+  margin: 1.3em;
+  border: 0;
+  margin-left: 0.3em;
+  margin-bottom: 1.3em;
+}
+
+.article__figure_positioning {
+  margin-left: 1em;
+  margin-top: 0;
+}
+
+.service__button {
+  background-color: #F8F8F8;
+}
+
+.service__button_font {
+  white-space: nowrap;
+  font-family: 'TTLakes' bold;
+  font-family: 'TTLakes';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #1B1C21;
+}
+
+.service__button_positioning {
+  display: flex;
+  align-items: center;
+  border: 0;
+  margin-left: 0.3em;
+}
+
+.button__immage {
+  margin-left: 10px;
+}

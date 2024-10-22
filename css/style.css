@@ -1,0 +1,27 @@
+
+
+@import url(allDevices.css);
+@import url(fonts.css);
+@import url(descktop.css);
+@import url(mob.css);
+@import url(laptop.css);
+@import url(swiper.css);
+
+/*
+ .borders {
+  border: 1px;
+  border-style: solid;
+  border-color: aqua;
+}
+
+.borders {
+  border: 1px;
+  border-style: solid;
+  border-color: aqua;
+}
+
+.upperMenu_positioning-margin--auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+*/

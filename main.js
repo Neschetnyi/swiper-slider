@@ -88,6 +88,8 @@ function swiperChange() {
       init = true;
       swiper = new Swiper(".swiper", {
         slidesPerView: "auto",
+        spaceBetween: 32,
+        loop: false,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,

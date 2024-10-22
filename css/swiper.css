@@ -40,7 +40,6 @@
   flex-wrap: wrap;
   max-height: 260px;
   overflow: hidden;
-  transition-duration: 1s;
 }
 
 .swiper__main_mob {

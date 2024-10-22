@@ -51,7 +51,6 @@ html, body {
   height: 80px;
   overflow: visible;
   flex-wrap: nowrap;
-  transition: 1s;
 }
 
 .swiper__main_laptop {

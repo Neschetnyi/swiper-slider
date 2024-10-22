@@ -23,6 +23,10 @@
   white-space: normal;
 }
 
+.swiper__container {
+  position: relative;
+}
+
 .swiper__container_mob {
   height: 120px;
 }

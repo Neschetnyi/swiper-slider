@@ -41,6 +41,7 @@
   row-gap: 16px;
   flex-wrap: wrap;
   min-height: 80px;
+  max-height: 260px;
   overflow: hidden;
   transition: 0.5s;
 }
@@ -61,7 +62,7 @@
 }
 
 .swiper__main_height-fit-content {
-  height: 260px;
+  height: 254px;
 }
 
 .swiper__element {

@@ -38,15 +38,16 @@
   column-gap: 32px;
   row-gap: 16px;
   flex-wrap: wrap;
-  max-height: 260px;
+  height: 260px;
   overflow: hidden;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .swiper__main_mob {
   height: 80px;
   overflow: visible;
   flex-wrap: nowrap;
+  transition: 1s;
 }
 
 .swiper__main_laptop {

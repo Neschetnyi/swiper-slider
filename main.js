@@ -82,7 +82,7 @@ swiperContainer.appendChild(paginationEl);
 //swiper function
 var init = false;
 var swiper;
-function swiperCard() {
+function swiperChange() {
   if (window.innerWidth <= 768) {
     if (!init) {
       init = true;
@@ -103,14 +103,14 @@ function swiperCard() {
 //defolt setings
 var windowWidth = window.innerWidth;
 if (windowWidth < 768) {
-  swiperCard();
+  swiperChange();
   swiper__main.classList.add('swiper__main_mob');
   showButton.classList.add('show-all_display-none');
   swiperContainer.classList.add('swiper__container_mob');
   shadow.classList.remove('swiper-shadow_display-none');
 }
 if (windowWidth >= 768) {
-  swiperCard();
+  swiperChange();
   shadow.classList.add('swiper-shadow_display-none');
   showButton.children[0].src = showButton.children[0].src;
   showButton.children[1].textContent = showButton.children[1].textContent;
@@ -121,7 +121,7 @@ if (windowWidth >= 768) {
 window.addEventListener('resize', function() {
  windowWidth = window.innerWidth;
  if (windowWidth < 768) {
-  swiperCard();
+  swiperChange();
   shadow.classList.remove('swiper-shadow_display-none');
   swiperContainer.classList.add('swiper__container_mob');
   swiper__main.classList.add('swiper__main_mob');
@@ -131,7 +131,7 @@ window.addEventListener('resize', function() {
  }
 
  if (windowWidth >= 768) {
-  swiperCard();
+  swiperChange();
   shadow.classList.add('swiper-shadow_display-none');
   swiperContainer.classList.remove('swiper__container_mob');
   showButton.children[0].src = showButton.children[0].src;
